@@ -10,9 +10,9 @@ spring:
     password: guest
   sleuth:
     sampler:
-      percentage: 1.0
+      percentage: 1.0     
 management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info,bus-refresh
+        include: refresh,health,info
